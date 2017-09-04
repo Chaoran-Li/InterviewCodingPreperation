@@ -5,7 +5,10 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        NQueens test = new NQueens();
-        System.out.println(test.nqueens(5));
+        //ValidBlocks test = new ValidBlocks();
+        //test.validBlocks(4);
+        ValidPermutationsOfParenthesis test = new ValidPermutationsOfParenthesis();
+        System.out.println(test.validParenthesis(3));
+
     }
 }

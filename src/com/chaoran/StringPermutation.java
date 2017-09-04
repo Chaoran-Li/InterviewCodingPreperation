@@ -1,6 +1,7 @@
 package com.chaoran;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 /**
@@ -37,5 +38,38 @@ public class StringPermutation {
         char temp = array[i];
         array[i] = array[j];
         array[j] = temp;
+    }
+
+    public List<String> permutationI(String input) {
+        List<String> res = new ArrayList<>();
+        if (input == null || input.length() <= 1) {
+            return res;
+        }
+
+        char[] array = input.toCharArray();
+        StringBuilder tmp = new StringBuilder();
+        HashSet<Character> set = new HashSet<>();
+        helper(array, res, tmp, set);
+        return res;
+    }
+
+    private void helper(char[] array,
+                        List<String> res,
+                        StringBuilder tmp,
+                        HashSet<Character> set) {
+        if (tmp.length() == array.length) {
+            res.add(tmp.toString());
+            return;
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            if (!set.contains(array[i])) {
+                set.add(array[i]);
+                tmp.append(array[i]);
+                helper(array, res, tmp, set);
+                tmp.deleteCharAt(tmp.length() - 1);
+                set.remove(array[i]);
+            }
+        }
     }
 }
