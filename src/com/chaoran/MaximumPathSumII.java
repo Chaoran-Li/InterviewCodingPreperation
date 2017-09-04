@@ -2,6 +2,10 @@ package com.chaoran;
 
 /**
  * Created by chaoranli on 9/3/17.
+ * Find the maximum possible sum from any node to any node (the start node and the end node can be the same)
+ * do not record the negative node
+ * time complexity: O(n)
+ * space complexity: O(log^n)
  */
 public class MaximumPathSumII {
 
