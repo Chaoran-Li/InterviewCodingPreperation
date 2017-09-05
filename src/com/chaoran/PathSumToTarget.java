@@ -18,6 +18,7 @@ public class PathSumToTarget {
         }
 
         Set<Integer> prefixSum = new HashSet<>();
+        prefixSum.add(0);
         return helper(root, prefixSum, 0, target);
     }
 
