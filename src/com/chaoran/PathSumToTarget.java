@@ -7,6 +7,8 @@ import java.util.Set;
  * Created by chaoranli on 9/4/17.
  * Determine if there exists a path (the path can only be from one node to itself or to any of its descendants)
  * the sum of the numbers on the path is the given target number.
+ * time complexity: O(n)
+ * space complexity: O(n)
  */
 public class PathSumToTarget {
 
