@@ -11,6 +11,7 @@ public class RightShiftByNCharacters {
         }
 
         char[] array = input.toCharArray();
+        n = n % array.length;
         reverse(array, 0, array.length - 1);
         reverse(array, 0, n - 1);
         reverse(array, n, array.length - 1);
