@@ -6,8 +6,8 @@ package com.chaoran;
 public class RightShiftByNCharacters {
 
     public String rightShift(String input, int n) {
-        if (input == null) {
-            return null;
+        if (input == null || input.length() <= 1) {
+            return input;
         }
 
         char[] array = input.toCharArray();
