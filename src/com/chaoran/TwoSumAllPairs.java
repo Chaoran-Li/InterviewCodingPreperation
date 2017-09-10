@@ -9,7 +9,7 @@ public class TwoSumAllPairs {
     /**
      * Find all pairs of elements in a given array that sum to the given target number.
      * Return all the pairs of indices.
-     * 
+     *
      */
     public List<List<Integer>> twoSumAllPairsI(int[] array, int target) {
         List<List<Integer>> res = new ArrayList<>();
