@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * Created by chaoranli on 7/23/17.
+ * time complexity: O(n!)
+ * space complexity: O(1)
  */
 public class StringPermutation {
 
