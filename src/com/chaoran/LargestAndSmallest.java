@@ -51,11 +51,11 @@ public class LargestAndSmallest {
                 swap(array, i, n - 1 - i);
             }
         }
-        return new int[] {largest(array, 0, n - 1 / 2), smallest(array, n / 2, n - 1)};
+        return new int[] {largest(array, 0, (n - 1) / 2), smallest(array, n / 2, n - 1)};
     }
 
     private int largest(int[] array, int left, int right) {
-        int largest = left;
+        int largest = array[left];
         for (int i = left + 1; i <= right; i++) {
             largest = Math.max(largest, array[i]);
         }
@@ -63,7 +63,7 @@ public class LargestAndSmallest {
     }
 
     private int smallest(int[] array, int left, int right) {
-        int smallest = left;
+        int smallest = array[left];
         for (int i = left + 1; i <= right; i++) {
             smallest = Math.min(smallest, array[i]);
         }
