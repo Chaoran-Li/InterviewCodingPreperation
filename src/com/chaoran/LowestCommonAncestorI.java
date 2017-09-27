@@ -3,7 +3,7 @@ package com.chaoran;
 /**
  * Created by chaoranli on 8/5/17.
  */
-public class LowestCommonAncestor {
+public class LowestCommonAncestorI {
 
     public TreeNode LCA(TreeNode root, TreeNode one, TreeNode two) {
         if (root == null) {
