@@ -30,5 +30,9 @@ public class LargestSubArraySumII {
                 solEnd = i;
             }
         }
+        res[0] = solStart;
+        res[1] = solEnd;
+        res[2] = largest;
+        return res;
     }
 }
