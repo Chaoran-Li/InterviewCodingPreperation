@@ -2,6 +2,9 @@ package com.chaoran;
 
 /**
  * Created by chaoranli on 8/12/17.
+ * Given an unsorted integer array, find the subarray that has the greatest sum. Return the sum.
+ * time complexity: O(n)
+ * space complexity: O(1)
  */
 public class LargestSubArraySum {
 
