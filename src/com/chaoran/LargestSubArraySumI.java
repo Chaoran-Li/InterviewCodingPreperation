@@ -6,7 +6,7 @@ package com.chaoran;
  * time complexity: O(n)
  * space complexity: O(1)
  */
-public class LargestSubArraySum {
+public class LargestSubArraySumI {
 
     public int largestSum(int[] input) {
         int max = input[0];

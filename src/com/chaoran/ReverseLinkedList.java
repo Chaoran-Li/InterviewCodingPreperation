@@ -31,9 +31,9 @@ public class ReverseLinkedList {
             return head;
         }
 
-        ListNode prev = recursiveReverse(head.next);
+        ListNode newHead = recursiveReverse(head.next);
         head.next.next = head;
         head.next = null;
-        return prev;
+        return newHead;
     }
 }
