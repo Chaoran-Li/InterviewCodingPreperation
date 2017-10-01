@@ -2,12 +2,13 @@ package com.chaoran;
 
 /**
  * Created by chaoranli on 7/29/17.
+ * naive method
+ * time complexity: O(n^2)
+ * space complexity: O(1)
  */
 public class StrStr {
     /**
-     * naive method
-     * time complexity: O(n^2)
-     * space complexity: O(1)
+
      */
     public int strStr(String large, String small) {
         if (large.length() < small.length()) {

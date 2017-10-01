@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac4ce23-6d9b-42a2-815f-81f2d1c76714" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chaoran/AddSpace.java" afterPath="$PROJECT_DIR$/src/com/chaoran/AddSpace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chaoran/StrStr.java" afterPath="$PROJECT_DIR$/src/com/chaoran/StrStr.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddSpace.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/chaoran/AddSpace.java">
+      <file leaf-file-name="StrStr.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/chaoran/StrStr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +72,6 @@
         <option value="$PROJECT_DIR$/src/com/chaoran/MaximumPathSumII.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/MaximumPathSumIII.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/PathSumToTarget.java" />
-        <option value="$PROJECT_DIR$/src/com/chaoran/StrStr.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/RightShiftByNCharacters.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/CharReplace.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/AllAnagrams.java" />
@@ -105,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/com/chaoran/ReverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/LargestSubArraySumII.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/AddSpace.java" />
+        <option value="$PROJECT_DIR$/src/com/chaoran/StrStr.java" />
       </list>
     </option>
   </component>
@@ -571,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chaoran/StrStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chaoran/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -907,6 +897,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chaoran/StrStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
