@@ -33,7 +33,7 @@ public class AddSpace {
 
         sb.append(array[index]);
         sb.append(" ");
-        helper(array, index + 1; sb, res);
+        helper(array, index + 1, sb, res);
         sb.deleteCharAt(sb.length() - 1);
         helper(array, index + 1, sb, res);
         sb.deleteCharAt(sb.length() - 1);
