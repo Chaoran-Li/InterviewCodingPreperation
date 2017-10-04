@@ -8,33 +8,31 @@ package com.chaoran;
 public class LargestAndSecondLargest {
 
     public int[] largestAndSecondLargest(int[] array) {
-        // assumption: array is not null and length is at least 2
         int n = array.length;
         for (int i = 0; i < n / 2; i++) {
             if (array[i] < array[n - 1 - i]) {
                 swap(array, i, n - 1 - i);
             }
         }
-        int[] res = new int[2];
-        return largestAndSecond(array, 0, (n - 1) / 2, res);
+        return new int[]{largest(array, 0, (n - 1) / 2), secondLargest(array, 1, n - 1)};
     }
 
-    private int[] largestAndSecond(int[] array, int left, int right, int[] res) {
-        int largest = array[left];
-        int secondLargest = array[left];
+    private int largest(int[] array, int left, int right) {
         for (int i = left + 1; i <= right; i++) {
-            if (largest < array[i]) {
-                secondLargest = largest;
-                largest = array[i];
-            } else {
-                if (array[i] > secondLargest) {
-                    secondLargest = array[i];
-                }
+            if (array[left] < array[i]) {
+                swap(array, left, i);
             }
         }
-        res[0] = largest;
-        res[1] = secondLargest;
-        return res;
+        return array[left];
+    }
+
+    private int secondLargest(int[] array, int left, int right) {
+        for (int i = left + 1; i <= right; i++) {
+            if (array[left] < array[i]) {
+                swap(array, left, i);
+            }
+        }
+        return array[left];
     }
 
     private void swap(int[] array, int left, int right) {

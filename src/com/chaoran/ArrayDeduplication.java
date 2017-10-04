@@ -96,5 +96,25 @@ public class ArrayDeduplication {
         return Arrays.copyOf(array, flag ? slow : slow + 1);
     }
 
+    public int[] dedupIV(int[] array) {
+        // Write your solution here.
+        if (array.length <= 1) {
+            return array;
+        }
+
+        int end = 0;
+        for (int i = 1; i < array.length; i++) {
+            if (end == -1 || array[i] != array[end]) {
+                array[++end] = array[i];
+            } else {
+                end--;
+                while (i + 1 < array.length && array[i] == array[i + 1]) {
+                    i++;
+                }
+            }
+        }
+        return Arrays.copyOf(array, end + 1);
+    }
+
 
 }
