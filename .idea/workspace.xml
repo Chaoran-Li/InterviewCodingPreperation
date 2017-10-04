@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dac4ce23-6d9b-42a2-815f-81f2d1c76714" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java" afterPath="$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chaoran/LargestAndSecondLargest.java" afterPath="$PROJECT_DIR$/src/com/chaoran/LargestAndSecondLargest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,17 +31,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayDeduplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayDeduplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="183">
+              <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestAndSecondLargest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LargestAndSecondLargest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chaoran/LargestAndSecondLargest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="731">
@@ -122,8 +120,8 @@
         <option value="$PROJECT_DIR$/src/com/chaoran/LargestSubArraySumII.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/AddSpace.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/StrStr.java" />
-        <option value="$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java" />
         <option value="$PROJECT_DIR$/src/com/chaoran/LargestAndSecondLargest.java" />
+        <option value="$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java" />
       </list>
     </option>
   </component>
@@ -915,18 +913,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chaoran/LargestAndSecondLargest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chaoran/ArrayDeduplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding />
         </state>
       </provider>

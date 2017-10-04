@@ -61,7 +61,7 @@ public class ArrayDeduplication {
 
     /**
      * don't keep any element of duplicate group
-     * the left part of slow pointer(not including slow pointer) is result
+     * the left part of slow pointer(including slow pointer) is result
      * time complexity: O(n)
      * space complexity: O(1)
      */
@@ -96,6 +96,12 @@ public class ArrayDeduplication {
         return Arrays.copyOf(array, flag ? slow : slow + 1);
     }
 
+    /**
+     * Given an unsorted integer array, remove adjacent duplicate elements repeatedly,
+     * from left to right. For each group of elements with the same value do not keep any of them.
+     * time complexity: O(n)
+     * space complexity: O(1)
+     */
     public int[] dedupIV(int[] array) {
         // Write your solution here.
         if (array.length <= 1) {
