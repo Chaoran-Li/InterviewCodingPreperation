@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class DeepCopyUndirectedGraph {
 
-    public List<GraphNode> copy(List<GraphNode> graph) {
+    public List<GraphNode> copyBFS(List<GraphNode> graph) {
         if (graph == null) {
             return null;
         }
