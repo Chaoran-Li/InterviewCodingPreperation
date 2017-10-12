@@ -36,10 +36,11 @@ public class MyLinkedList {
         }
 
         ListNode tail = new ListNode(node);
-        while (head.next != null) {
-            head = head.next;
+        ListNode cur = head;
+        while (cur.next != null) {
+            cur = cur.next;
         }
-        head.next = tail;
+        cur.next = tail;
         return head;
     }
 
