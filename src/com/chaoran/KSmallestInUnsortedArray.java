@@ -42,7 +42,7 @@ public class KSmallestInUnsortedArray {
 
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
 
-        for (int i = 0; i < k; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (i < k) {
                 maxHeap.offer(arr[i]);
             } else if (arr[i] < maxHeap.peek()) {
