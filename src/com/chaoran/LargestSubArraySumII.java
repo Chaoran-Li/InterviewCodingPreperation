@@ -2,6 +2,9 @@ package com.chaoran;
 
 /**
  * Created by chaoranli on 9/29/17.
+ * need return the start and end index for the longest sum array
+ * time complexity: O(n)
+ * space complexity: O(1)
  */
 public class LargestSubArraySumII {
 
@@ -24,7 +27,9 @@ public class LargestSubArraySumII {
                 curSum = array[i];
                 curStart = i;
             }
+
             largest = Math.max(largest, curSum);
+
             if (largest < curSum) {
                 solStart = curStart;
                 solEnd = i;

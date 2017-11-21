@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * Created by chaoranli on 7/27/17.
+ * time complexity: O(target^coins)
+ * space complexity: O(coins)
  */
 public class CombinationsOfCoins {
 

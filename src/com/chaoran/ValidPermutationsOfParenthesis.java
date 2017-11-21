@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * Created by chaoranli on 7/18/17.
+ * time complexity: O(2^2n) n is the number of pair
+ * space complexity: O(2n) n is the number of pair
  */
 public class ValidPermutationsOfParenthesis {
 
