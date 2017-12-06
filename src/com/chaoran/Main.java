@@ -9,20 +9,13 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
-        Deque<Integer> stack = new LinkedList<>();
-        stack.push(3);
-        stack.push(1);
-        stack.push(5);
-        stack.push(2);
-        stack.push(1);
-        stack.push(4);
-        stack.push(2);
-
-        SortStack test = new SortStack();
-        test.sortByTwoStacks(stack);
-
-        for (int i = stack.size(); i > 0; i--) {
-            System.out.print(stack.pop());
+        String input = "diedjfirfjfirui";
+        String s = "irf";
+        String t = "a";
+        StringReplaceFirstOcurrence test = new StringReplaceFirstOcurrence();
+        String res = test.replaceFirstOcurence(input, s, t);
+        for (int i = 0; i < res.length(); i++) {
+            System.out.print(res.charAt(i));
         }
     }
 }
