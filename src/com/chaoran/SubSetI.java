@@ -34,4 +34,23 @@ public class SubSetI {
         helper(input, subSet, index + 1, res);
     }
 
+    public List<String> subSet(String input) {
+        if (input == null) {
+            return null;
+        }
+        char[] array = input.toCharArray();
+        StringBuilder sb = new StringBuilder();
+        List<String> res = new ArrayList<>();
+        DFS(array, 0, sb, res);
+        return res;
+    }
+
+    private void DFS(char[] array, int index, StringBuilder sb, List<String> res) {
+        res.add(sb.toString());
+        for (int i = index; i < array.length; i++) {
+            sb.append(array[i]);
+            DFS(array, i + 1, sb, res);
+            sb.deleteCharAt(sb.length() - 1);
+        }
+    }
 }

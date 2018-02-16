@@ -9,13 +9,8 @@ import java.util.LinkedList;
 public class Main {
 
     public static void main(String[] args) {
-        String input = "diedjfirfjfirui";
-        String s = "irf";
-        String t = "a";
-        StringReplaceFirstOcurrence test = new StringReplaceFirstOcurrence();
-        String res = test.replaceFirstOcurence(input, s, t);
-        for (int i = 0; i < res.length(); i++) {
-            System.out.print(res.charAt(i));
-        }
+        String input = "aabaa";
+        AllPalindrome test = new AllPalindrome();
+        System.out.println(test.findAllPalindrome(input));
     }
 }
