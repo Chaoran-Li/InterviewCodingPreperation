@@ -31,7 +31,9 @@ public class SpiralOrderTraverseMatrixII {
         if (left > right || up > down) {
             return;
         } else if (left == right) {
-            result.add(matrix[left][right]);
+            for (int i = up; i <= down; i++) {
+                result.add(matrix[i][left]);
+            }
             return;
         } else if (up == down) {
             for (int i = left; i <= right; i++) {
