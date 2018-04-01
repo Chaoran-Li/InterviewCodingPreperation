@@ -7,6 +7,8 @@ import java.util.Queue;
 
 /**
  * Created by chaoranli on 6/7/17.
+ * time complexity: O(n)
+ * space complexity: O(n);
  */
 public class PrintTreeLayerByLayer {
 
